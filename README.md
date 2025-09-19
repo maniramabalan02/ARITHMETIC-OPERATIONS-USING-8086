@@ -60,12 +60,12 @@ END
 |                         |                          |
 
 #### Manual Calculations
-
-(Add your calculation here)
-
----
+<img width="642" height="432" alt="Indirect Addition" src="https://github.com/user-attachments/assets/c680c99c-cb07-45cf-9440-0e37a7c8a531" />
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+
+<img width="642" height="432" alt="Indirect Addition" src="https://github.com/user-attachments/assets/4ac0900f-01e9-4ef2-a1f0-014c9acd08b1" />
+
 
 ## 2. SUBTRACTION
 
@@ -118,6 +118,7 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
 
 ## 3. MULTIPLICATION
 
