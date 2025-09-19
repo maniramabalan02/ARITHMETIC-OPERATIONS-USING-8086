@@ -113,12 +113,14 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
+![Manual calculation Indirect Substraction](https://github.com/user-attachments/assets/13624ecb-1bde-4fdf-adc7-d01e92e0d0a1)
 
----
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+
+<img width="642" height="432" alt="Indirect substraction" src="https://github.com/user-attachments/assets/6642d745-9e4f-446d-b20f-437c17f768dc" />
 
 
 ## 3. MULTIPLICATION
@@ -163,11 +165,13 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
+![Manual Calculation Indirect Multiplication](https://github.com/user-attachments/assets/35ba363c-9b86-4a54-b81e-4fd160927c81)
 
----
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+<img width="642" height="432" alt="Indirect Multiplication" src="https://github.com/user-attachments/assets/90a5966a-5e8b-43d9-9cac-3a1631ff9219" />
+
 
 ## 4. DIVISION
 
@@ -208,11 +212,11 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
+![Manual Calculation Indirect Division](https://github.com/user-attachments/assets/e7e9ea3e-6d17-464c-9ed0-7fe670ae1e87)
 
----
 ## OUTPUT FROM MASM SOFTWARE
 
+<img width="642" height="432" alt="Indirect division" src="https://github.com/user-attachments/assets/2f26c46a-f093-4e9a-811c-81f8cb6891bb" />
 
 
 ## RESULT
