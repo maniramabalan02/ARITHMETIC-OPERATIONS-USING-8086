@@ -60,7 +60,8 @@ END
 |                         |                          |
 
 #### Manual Calculations
-<img width="642" height="432" alt="Indirect Addition" src="https://github.com/user-attachments/assets/c680c99c-cb07-45cf-9440-0e37a7c8a531" />
+![Manual Calculation Direct Addition](https://github.com/user-attachments/assets/b8539d5b-00aa-494f-bdbd-06d3d2dd91a6)
+
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 
