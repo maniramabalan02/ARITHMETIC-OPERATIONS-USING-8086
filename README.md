@@ -53,14 +53,21 @@ CODE ENDS
 END
 ```
 
+#### Input Table
+
+| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
+| ----------------------- | ------------------------ |
+|  2000                   |   79                     | 
+|  2001                   |   88                     |
+|  2002                   |   23                     |
+|  2003                   |   02                     |
+
 #### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  2000                   |   79                     | |
-|  2001                   |   88                     |
-|  2002                   |   23                     |
-|  2003                   |   02                     |
+|  2004                   |   9C                     | 
+|  2005                   |   8A                     |
 
 
 #### Manual Calculations
