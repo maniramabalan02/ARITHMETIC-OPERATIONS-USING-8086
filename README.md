@@ -55,7 +55,7 @@ END
 
 #### Manual Calculations
 
-<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/62d1daed-fca4-4606-b725-53313c30d560" />
+![WhatsApp Image 2025-09-21 at 21 48 22_6eaa782f](https://github.com/user-attachments/assets/c865e42e-36a5-4ec2-93ff-0c37e790c8d5)
 
 
 
@@ -113,7 +113,7 @@ END
 |      1203:34             |  c4:1207                 |                            
 
 ### Manual Calculations
-<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/7624ba80-bc33-4566-9662-1bca9497c45c" />
+![WhatsApp Image 2025-09-21 at 21 48 32_cd780967](https://github.com/user-attachments/assets/8d998522-f5ea-4d1d-b9eb-e3358543b76a)
 
 
 
@@ -163,7 +163,7 @@ END
 |      1203:34            |   c4:1207                |                               
 
 ### Manual Calculations
-<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/47532648-1875-425d-9d86-ee9a808b205b" />
+![WhatsApp Image 2025-09-21 at 21 48 27_5e2190d4](https://github.com/user-attachments/assets/109ed0aa-c941-42cb-a746-0656ac80d1e2)
 
 
 
@@ -212,7 +212,7 @@ END
 |     1203:34             |  c4:1207                 |                                                               
 
 ### Manual Calculations
-<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/10e0af66-3462-4e2b-98b1-cfc12df355ff" />
+![WhatsApp Image 2025-09-21 at 21 48 35_0578fe0b](https://github.com/user-attachments/assets/b89ddc63-aeac-447e-b8f7-dd9e7bb12176)
 
 
 
