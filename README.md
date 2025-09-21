@@ -1,38 +1,28 @@
-# Arithmetic-operation-using-8086
-# 8086 Assembly Language Programs for Arithmetic Operations
+# Arithmetic Operation using 8086  
+## 8086 Assembly Language Programs for Arithmetic Operations  
 
 ## AIM
-
-To write and execute Assembly Language Programs to perform arithmetic operations for the 8086 microprocessor.
-
----
+To write and execute Assembly Language Programs to perform arithmetic operations for the 8086 microprocessor.  
 
 ## APPARATUS REQUIRED
+- Personal Computer with MASM Software  
 
-* Personal Computer with MASM Software
+## 1. ADDITION  
 
----
+### Algorithm
+1. Initialize memory location in HL register.  
+2. Store 1st data.  
+3. Increment HL to enter 2nd data.  
+4. Move 2nd number to accumulator.  
+5. Decrement HL.  
+6. Add value in memory with accumulator.  
+7. Store result.  
+8. Stop.  
 
-## 1. ADDITION
+### Flowchart
+![Flowchart for Addition](https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de)
 
-#### Algorithm
-
-1. Initialize memory location in HL register.
-2. Store 1st data.
-3. Increment HL to enter 2nd data.
-4. Move 2nd number to accumulator.
-5. Decrement HL.
-6. Add value in memory with accumulator.
-7. Store result.
-8. Stop.
-
-
-## FLOW CHART
-<img width="707" height="1024" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
-
-
-#### Program
-
+### Program
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -51,37 +41,35 @@ MOV AH,4CH
 INT 21H
 CODE ENDS
 END
+
 ```
 
 #### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  2000                   |   79                     | 
-|  2001                   |   88                     |
-|  2002                   |   23                     |
-|  2003                   |   02                     |
-
-
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|  2004                   |   9C                     | 
-|  2005                   |   8A                     |
-|  2006                   |   00                     |
-
+|                         |                          |
+|      1201:34            |  68:1205                 |
+|      1202:12            |  00:1206                 |
+|      1203:34            |  c4:1207                 |                             
 
 #### Manual Calculations
-![Manual Calculation Direct Addition](https://github.com/user-attachments/assets/b8539d5b-00aa-494f-bdbd-06d3d2dd91a6)
+
+<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/62d1daed-fca4-4606-b725-53313c30d560" />
+
+
 
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="901" height="593" alt="Screenshot 2025-09-14 182139" src="https://github.com/user-attachments/assets/2a6ee828-4b7f-4a83-8650-138452df5eb4" />
 
-<img width="642" height="432" alt="Indirect Addition" src="https://github.com/user-attachments/assets/4ac0900f-01e9-4ef2-a1f0-014c9acd08b1" />
+
+<img width="916" height="593" alt="Screenshot 2025-09-14 175635" src="https://github.com/user-attachments/assets/ee533120-4050-4d87-8e57-b634b304935c" />
 
 
 ## 2. SUBTRACTION
 
-#### Algorithm
+### Algorithm
 
 1. Initialize memory and store 1st data.
 2. Increment to get 2nd data.
@@ -89,12 +77,12 @@ END
 4. Subtract memory content.
 5. Store result.
 
-## FLOWCHART
+### FLOWCHART
 
 <img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
 
 
-#### Program
+### Program
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -115,52 +103,38 @@ CODE ENDS
 END
 ```
 
+### Output Table
 
-#### Output Table
+| MEMORY LOCATION (INPUT)  | MEMORY LOCATION (OUTPUT) |
+| -----------------------  | ------------------------ |
+|                          |                          |
+|      1201:34             |  68:1205                 |
+|      1202:12             |  00:1206                 |
+|      1203:34             |  c4:1207                 |                            
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|  2000                   |   79                     | 
-|  2001                   |   88                     |
-|  2002                   |   23                     |
-|  2003                   |   02                     |
-
-
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|  2004                   |   56                     | 
-|  2005                   |   86                     |
-|  2006                   |   00                     |
-
-
-#### Manual Calculations
-
-![Manual calculation Indirect Substraction](https://github.com/user-attachments/assets/13624ecb-1bde-4fdf-adc7-d01e92e0d0a1)
+### Manual Calculations
+<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/7624ba80-bc33-4566-9662-1bca9497c45c" />
 
 
 
-## OUTPUT SCREEN FROM MASM SOFTWARE
-
-
-<img width="642" height="432" alt="Indirect substraction" src="https://github.com/user-attachments/assets/6642d745-9e4f-446d-b20f-437c17f768dc" />
+### OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="893" height="587" alt="Screenshot 2025-09-14 182203" src="https://github.com/user-attachments/assets/90edbae7-11ca-4787-a938-8ad347753313" />
+<img width="913" height="568" alt="Screenshot 2025-09-14 180909" src="https://github.com/user-attachments/assets/ca69b58d-f24a-4fa4-bf9c-d62735f6effa" />
 
 
 ## 3. MULTIPLICATION
 
-#### Algorithm
+### Algorithm
 
 1. Initialize memory and store operands.
 2. Move operands to registers.
 3. Multiply.
 4. Store result.
 
-##FLOWCHART
-
+### FLOWCHART
 <img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
 
-
-
-#### Program
+### Program
 
 ```asm
 CODE SEGMENT
@@ -179,47 +153,38 @@ CODE ENDS
 END
 ```
 
-#### Output Table
+### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  2000                   |   02                     | 
-|  2001                   |   00                     |
-|  2002                   |   03                     |
-|  2003                   |   00                     |
+|                         |                          |
+|      1201:34            |   68:1205                |
+|      1202:12            |   00:1206                |
+|      1203:34            |   c4:1207                |                               
+
+### Manual Calculations
+<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/47532648-1875-425d-9d86-ee9a808b205b" />
 
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|  2004                   |   06                     | 
-|  2005                   |   00                     |
-|  2006                   |   00                     |
 
-
-#### Manual Calculations
-
-![Manual Calculation Indirect Multiplication](https://github.com/user-attachments/assets/35ba363c-9b86-4a54-b81e-4fd160927c81)
-
-
-## OUTPUT SCREEN FROM MASM SOFTWARE
-
-<img width="642" height="432" alt="Indirect Multiplication" src="https://github.com/user-attachments/assets/90a5966a-5e8b-43d9-9cac-3a1631ff9219" />
+### OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="885" height="587" alt="Screenshot 2025-09-14 182217" src="https://github.com/user-attachments/assets/dd1d9bdf-04c0-455f-b3d1-d15f3a67a645" />
+<img width="904" height="566" alt="Screenshot 2025-09-14 183300" src="https://github.com/user-attachments/assets/ba532115-92a6-47d6-b064-c959d2002b31" />
 
 
 ## 4. DIVISION
 
-#### Algorithm
+### Algorithm
 
 1. Load memory location of operands.
 2. Perform division.
 3. Store result.
 
-   ## FLOWCHART
+### FLOWCHART
 <img width="1065" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
 
 
-#### Program
-
+### Program
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -237,33 +202,28 @@ CODE ENDS
 END
 ```
 
-#### Output Table
+### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  2000                   |   69                     | 
-|  2001                   |   24                     |
-|  2002                   |   34                     |
-|  2003                   |   12                     |
+|                         |                          |
+|     1201:34             |  68:1205                 |
+|    1202:12              | 00:1206                  |
+|     1203:34             |  c4:1207                 |                                                               
+
+### Manual Calculations
+<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/10e0af66-3462-4e2b-98b1-cfc12df355ff" />
 
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|  2004                   |   02                     | 
-|  2005                   |   00                     |
-|  2006                   |   01                     |
 
+### OUTPUT FROM MASM SOFTWARE
 
-#### Manual Calculations
-
-![Manual Calculation Indirect Division](https://github.com/user-attachments/assets/e7e9ea3e-6d17-464c-9ed0-7fe670ae1e87)
-
-## OUTPUT FROM MASM SOFTWARE
-
-<img width="642" height="432" alt="Indirect division" src="https://github.com/user-attachments/assets/2f26c46a-f093-4e9a-811c-81f8cb6891bb" />
+<img width="921" height="576" alt="Screenshot 2025-09-14 182238" src="https://github.com/user-attachments/assets/d1b24a8e-d0a9-4486-9686-b860187c5fca" />
+<img width="916" height="561" alt="Screenshot 2025-09-14 183450" src="https://github.com/user-attachments/assets/a3c592ae-be5b-4ab7-97f6-abe12a0bbcba" />
 
 
 ## RESULT
 
 Thus, the Assembly Language Programs for 8086 to perform arithmetic operations (Addition, Subtraction, Multiplication, and Division) using both direct and indirect methods were successfully written and executed using MASM.
 
+---
